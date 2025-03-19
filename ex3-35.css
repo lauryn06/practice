@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 80vw;
+    height: 55vh;
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+}
+img{
+    width: 30vh;
+    height: 25vh;
+    margin-top: 20px;
+    border-radius:1000px;
+}
+i{
+    color: orange;
+}

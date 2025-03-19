@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    margin: 20px 30px;
+    background-color: black;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 5px;
+
+}
+
+.box{
+    margin-left: 30px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.5);
+    width: 170px;
+    height: 55px;
+}
+.box > i{
+    padding-top: 7px;
+    padding-left: 7px;
+   background-color: rgba(255, 255, 255, 0.833); 
+   width: 30px;
+   height: 30px;
+   border-radius: 100px;
+} 
+
+.another{
+    color: white;
+    background-color: rgba(137, 43, 226, 0.85);
+    height: 50px;
+    width: 220px;
+    border-radius: 5px ;
+    border: white;
+}
+.another > i{
+    color: white;  
+}

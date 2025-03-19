@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+      form{
+        border: 4px solid white;
+        border-color: white;
+        font-size: larger;
+        color: white;
+        background-attachment: fixed;
+        background-image: url("black\ heart.jpg");
+      }
+      .first, .second{
+        padding-top: 20px;
+      padding-left: 500px;
+      }
+      h1{
+        color: whitesmoke;
+        font-style: italic;
+        font-weight: bold;
+        text-align: start;
+        padding-top: 30px;
+        padding-left: 50px;
+      }
+    </style>
+</head>
+<body >
+    <form>
+        <h1>Boot Camp Attendance</h1>
+
+        <section class="first">
+        <label>Full Name</label><br><br>
+        <input type="text" name="FullName" required><br><br>
+        <label>Email</label><br><br>
+        <input type="email" name="Email" required><br><br>
+        <label>Phone number</label><br><br>
+        <input type="number" name="PhoneNumber" optional><br><br>
+        <label>Age</label><br><br>
+        <input type="age" name="Age" min="18" required><br><br>
+        <label>Gender</label><br><br>
+        <input type="radio" name="Gender" value="Gender">
+        <label>Female</label><br><br>
+        <input type="radio" name="Gender" value="Gender">
+        <label>Male</label><br><br>
+        <input type="radio" name="Gender" value="Gender">
+        <label>Other</label><br><br>
+    </section>
+    <section class="second">
+        <label>Field Of Interest</label>
+        <select type="Field" value="Field"><br><br>
+        <option value="Field">AI</option>
+        <option value="Field">Web Development</option>
+        <option value="Field">Cyber Security</option>
+        <option value="Field">Data Science</option>
+        <option value="Field">Cloud Computing</option></select><br><br>
+        <label>How will you Attend? </label><br><br>
+        <input type="radio" value="Attendance" name="Attendance">
+        <label>Personal</label><br><br>
+        <input type="radio" value="Attendance" name="Attendance">
+        <label>virtual</label><br><br>
+        <label>Rate Your Excitement Level</label>
+        <input type="range" min="1" max="10"><br><br>
+        <label>Any Special Request?</label><br><br>
+        <textarea rows="10" ></textarea><br><br>
+        <input type="checkbox">
+        <label>Agree to Terms & Conditions</label><br><br><br>
+        <input type="submit" placeholder="submit">
+        </section>
+
+        
+
+    </form>
+</body>
+</html>

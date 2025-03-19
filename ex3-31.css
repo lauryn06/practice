@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.in{
+    padding-left: 20px;
+    margin: 30px;
+    background-color: white;
+    border-top: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 60vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+h3, label{
+    padding-top: 10px;
+}
+.in > input{
+    width: 75vw;
+    height: 30px;
+}
+button{
+    border:1px;
+    width: 20vw;
+    height: 40px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.394);
+}
+h3{
+    color: grey;
+    font-size: x-large;
+    font-weight: 50;
+}
+label{
+    font-weight: 700;
+}
